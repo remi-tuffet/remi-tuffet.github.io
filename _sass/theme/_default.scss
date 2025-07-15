@@ -3,8 +3,10 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$olive                      : #C9E3CC;
-$gray                       : #7a8288;
+$olive                      : #c9e3cc;
+$dark-olive                  : mix(#000, $olive, 60%);
+$blue                       : #B8CBD0
+$gray                       : #B0B9A8;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : #9ba1a6;
@@ -33,7 +35,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-base-color                 : #{$olive};
 //    --global-bg-color                   : #fff;
     --global-bg-color                   : #{$olive};
-    --global-footer-bg-color            : #f2f3f3;
+    --global-footer-bg-color            : #{$blue};
     --global-border-color               : #{$lighter-gray};
     --global-dark-border-color          : #bdc1c4;
     --global-code-background-color      : #fafafa;
