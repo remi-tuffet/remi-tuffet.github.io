@@ -4,6 +4,7 @@
 
 /* Color codes used for the theme */
 $green                      : #606C5A; 
+$blue                       : mix(#000, #B8CBD0, 60%); 
 $dark-green                 : mix(#000, $green, 40%);
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
@@ -37,9 +38,9 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
+    --global-base-color                 : #{$green};
+    --global-bg-color                   : #{$green};
+    --global-footer-bg-color            : #{$blue};
     --global-border-color               : #{$light-gray};
     --global-dark-border-color          : #{$background-light};
     --global-code-background-color      : #fafafa;
